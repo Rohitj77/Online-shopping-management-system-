@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body
+{
+    background-color: #137f83;
+}
+h1
+{
+    font-size:30px;
+    margin-left:24%;
+    margin-right:20%;
+    margin-top:10%;
+    background-color:yellow;
+
+}
+
+.addp
+{
+    background-color:white;
+    margin:10px;
+    font-size:15px;
+    border-radius:5px;
+    height:355px;
+    width:500px;    
+    margin-left:33%;
+}
+.l
+{
+    margin:15px;
+}
+.btn
+{
+    padding:10px 50px;
+    background-color:green;
+    font-size:20px;
+    border-radius:26px;
+}
+
+
+
+</style>
+    <title>Document</title>
+</head>
+
+<body>
+       <h1><center>Admin Add Products Page</center></h1>    
+<form action="saree.php" method="post" enctype="multipart/form-data">
+<div class="addp"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Product name&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="l" name="product_name"><br>    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Product brand name&nbsp;<input type="text" class="l" name="product_brand_name"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Product Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="l" name="product_price"><br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" class="l" value="Choose Products" name="img" >
+<center><input type="submit" name="admin_product" value="Add Product" class="btn"></center>
+</div></form>
+</body>
+</html>
+
